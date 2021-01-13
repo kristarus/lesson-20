@@ -40,8 +40,6 @@
   outline: none;
 }
 
-/* form */
-
 #error-name {
   display: none;
   font-weight: bold;
