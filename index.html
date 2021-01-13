@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lesson 20</title>
+  </head>
+  <body>
+    <form id="form">
+      <label for="name">Name: </label>
+      <input type="text" name="name" id="name" />
+      <small id="error-name">This field is requered!</small>
+
+      <p>Gender:</p>
+      <div>
+        <label for="name">Man: </label>
+        <input type="radio" value="Man" name="gender" checked />
+      </div>
+      <div>
+        <label for="name">Woman: </label>
+        <input type="radio" value="Woman" name="gender" />
+      </div>
+
+      <label for="name" class="label-margin">Education: </label>
+      <select id="education">
+        <option>Higher</option>
+        <option>Secondary</option>
+        <option>Elementary</option>
+      </select>
+
+      <label for="name" class="label-margin">Date of birth: </label>
+      <input type="date" name="name" id="date" />
+
+      <label for="name" class="label-margin">Age: </label>
+      <input type="text" name="age" id="age" />
+      <small id="error-age">This field is uncorrect!</small>
+
+      <button type="submit" id="submitBtn" class="label-margin buttonSize">
+        Submit
+      </button>
+    </form>
+
+    <!-- modal window -->
+
+    <div class="modal">
+      <div class="modal__wrapper">
+        <button id="closeBtn">x</button>
+        <div class="modal__content"></div>
+      </div>
+    </div>
+
+    <!-- js -->
+    <script src="index.js"></script>
+  </body>
+</html>

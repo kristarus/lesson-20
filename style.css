@@ -1,0 +1,76 @@
+/* Modal window */
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-color: rgba(212, 0, 255, 0.5);
+  display: none;
+}
+
+.modal__wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  margin-right: -50%;
+  padding: 1rem;
+  transform: translate(-50%, -50%);
+  background-color: rgb(243, 205, 255);
+
+  border: 1px solid black;
+}
+
+/* Close button */
+
+#closeBtn {
+  border: 1px solid rgb(34, 7, 30);
+  background-color: rgb(252, 236, 255);
+}
+
+#closeBtn:hover {
+  border: 1px solid rgb(218, 62, 194);
+}
+
+#closeBtn:active {
+  background-color: rgb(227, 134, 255);
+  outline: none;
+}
+
+#error-name {
+  display: none;
+  font-weight: bold;
+  color: red;
+}
+
+#error-age {
+  display: none;
+  font-weight: bold;
+  color: red;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.label-margin {
+  margin: 20px 0 0;
+}
+
+.buttonSize {
+  width: 30%;
+}
+
+.buttom-margin {
+  margin: 20px 0 0;
+  text-align: center;
+}
+
+#age {
+  color: blue;
+}
